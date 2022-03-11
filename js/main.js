@@ -18,26 +18,26 @@ function changeImg() {
 
 rightBtn.addEventListener('click', function change() {
     idx++;
-    resetInter();
+    // resetInter();
     changeImg()
 })
 leftBtn.addEventListener('click', function change() {
     idx--;
-    resetInter();
+    // resetInter();
     changeImg()
 })
 
-let interval = setInterval(run, 2000);
+// let interval = setInterval(run, 2000);
 
-function run() {
-    idx++;
+// function run() {
+//     idx++;
 
-    changeImg();
-}
+//     changeImg();
+// }
 
-function resetInter() {
-    clearInterval(interval);
+// function resetInter() {
+//     clearInterval(interval);
 
-     interval = setInterval(run, 2000);
+//      interval = setInterval(run, 2000);
 
-}
+// }
